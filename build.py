@@ -69,7 +69,7 @@ about=f'''
   </aside>
 
   <div>
-    <p>I am a Ph.D. student in the Department of Mechanical Engineering and Materials Science at Yale University, advised by Prof. Yimin Luo. I also participate in Yale’s Integrated Graduate Program in Physical and Engineering Biology.</p>
+    <p>I am a Ph.D. student in the Department of Mechanical Engineering and Materials Science at Yale University, advised by Prof. Yimin Luo. I also participate in Integrated Graduate Program in Physical and Engineering Biology.</p>
 
     <p>My research focuses on transport in crowded and deformable environments. I combine experiments and simulations to understand how particle-scale geometry and mechanics influence diffusion and fluid flow.</p>
 
