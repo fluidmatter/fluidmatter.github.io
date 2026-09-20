@@ -86,15 +86,18 @@ about=f'''
     <div class="education-item">
       <strong>Sungkyunkwan University</strong>
       <span>M.S. · Mechanical Engineering</span>
+      <span>2022–2024 · Advisor: Prof. Jinkee Lee</span>
     </div>
 
     <div class="education-item">
       <strong>Sungkyunkwan University</strong>
       <span>B.S. · Mechanical Engineering</span>
+      <span>2016–2022 · Military service: 2019–2021</span>
     </div>
 
     <h2>Teaching</h2>
-    <p>Teaching Fellow, Strength and Deformation of Mechanical Elements, Yale University.</p>
+    <p>Teaching Fellow, Mechanical Engineering I: Strength &amp; Deformation (MENG 2311), Yale University · Fall 2026.</p>
+    <p>Teaching Fellow, Mechanical Engineering III: Dynamics (MENG 3323), Yale University · Spring 2026.</p>
 
     <h2>Experimental &amp; computational approaches</h2>
     <p>Particle tracking and microscopy; confined-flow experiments; rheological measurements; particle image velocimetry and Schlieren visualization; particle-based simulations and statistical modeling.</p>
