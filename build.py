@@ -61,11 +61,10 @@ about=f'''
   <aside>
     <img src="assets/portrait.jpg" alt="Jinseok Lee" width="361" height="421">
 
-    <div style="margin-top:22px">
-      {social()}
-      <div class="links" style="margin-top:12px">
-        <a href="assets/Jinseok_Lee_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
-      </div>
+    <div class="links" style="margin-top:22px;gap:12px 16px;">
+      {link(D['scholar'],'Google Scholar')}
+      {link('mailto:'+D['email'],'Email')}
+      <a href="assets/Jinseok_Lee_CV.pdf" target="_blank" rel="noopener">CV</a>
     </div>
   </aside>
 
