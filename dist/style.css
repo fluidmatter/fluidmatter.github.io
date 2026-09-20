@@ -46,5 +46,8 @@ nav a{color:var(--ink);font-size:15px}
 footer{margin-top:16px}
 @media(max-width:800px){.hero{grid-template-columns:220px 1fr;gap:32px}.profile-photo{width:220px}.hero h1{font-size:38px}}
 @media(max-width:600px){.header-inner{padding-top:12px;padding-bottom:12px}.hero{grid-template-columns:1fr;gap:26px;padding:32px 0}.profile-photo{width:220px}.hero h1{font-size:36px}.current-grid{gap:24px}.section-head{flex-direction:row;align-items:baseline;flex-wrap:wrap;gap:10px}.section-head h2{font-size:25px}.page-title h1{font-size:34px}.research-feature h2{font-size:26px}.page-title{padding:32px 0 24px}.hero .home-intro{margin-top:0}}
-
+.page-title.research-intro,
+.page-title.research-intro p {
+  max-width: none;
+}
 .research-video video{display:block;width:100%;height:auto;background:#f3f5f8;max-width:100%}.research-video figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}.research-feature figure.research-video{max-width:none}
