@@ -86,7 +86,7 @@ about=f'''
     <div class="education-item">
       <strong>Sungkyunkwan University</strong>
       <span>M.S. · Mechanical Engineering</span>
-      <span>2022–2024 · Advisor: Prof. <a href="https://micon.skku.edu/" target="_blank" rel="noopener">Jinkee Lee</a>.</span>
+      <span>2022–2024 · Advisor: Prof. <a href="https://micon.skku.edu/" target="_blank" rel="noopener">Jinkee Lee</a></span>
     </div>
 
     <div class="education-item">
