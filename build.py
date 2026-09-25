@@ -35,7 +35,7 @@ def pub(p):
 def current_cards():
     return '<div class="current-grid">'+''.join(f'<article class="current-card"><h3>{link("research.html#"+r["id"],e(r["title"]))}</h3><p>{e(r["question"])}</p></article>' for r in D['research'])+'</div>'
 
-home=f'''<section class="hero" aria-labelledby="home-title"><figure class="profile-photo"><img src="assets/portrait.jpg" alt="Portrait of Jinseok Lee" width="361" height="421"></figure><div><h1 id="home-title">Jinseok Lee</h1><p class="affiliation">Ph.D. Student<br>Mechanical Engineering &amp; Materials Science<br><a href="https://www.yale.edu/">Yale University</a></p><p class="home-intro">I study fluid mechanics and soft matter, with a focus on transport in crowded and deformable environments working with Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo.</p>{social()}</div></section>
+home=f'''<section class="hero" aria-labelledby="home-title"><figure class="profile-photo"><img src="assets/portrait.jpg" alt="Portrait of Jinseok Lee" width="361" height="421"></figure><div><h1 id="home-title">Jinseok Lee</h1><p class="affiliation">Ph.D. Student<br>Mechanical Engineering &amp; Materials Science<br><a href="https://www.yale.edu/">Yale University</a></p><p class="home-intro">I study fluid mechanics and soft matter, with a focus on transport in crowded and deformable environments working with Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a>.</p>{social()}</div></section>
 <section class="section"><div class="section-head"><h2>Current research</h2>{link('research.html','Research details')}</div>{current_cards()}</section>
 <section class="section"><div class="section-head"><h2>Selected publications</h2>{link('publications.html','All publications')}</div>{''.join(pub(D['publications'][i]) for i in [0,2,5,6])}</section>
 <section class="section"><div class="section-head"><h2>Recent updates</h2></div><div class="news-row"><time datetime="2026">Summer 2026</time><p>Presented research on confined diffusion at the 100th ACS Colloids symposium and iPoLS 2026.</p></div><div class="news-row"><time datetime="2026-05">May 2026</time><p>New preprint: {link('https://arxiv.org/abs/2605.29424','Model-free estimation in scattering analysis of microscopy')}.</p></div><div class="news-row"><time datetime="2026-05">May 2026</time><p>New preprint: {link('https://arxiv.org/abs/2605.04216','Accessible pore geometry governs tracer diffusion in crowded environments')}.</p></div></section>'''
@@ -69,7 +69,7 @@ about=f'''
   </aside>
 
   <div>
-    <p>I am a Ph.D. student in the Department of Mechanical Engineering and Materials Science at Yale University, advised by Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo. I also participate in Integrated Graduate Program in Physical and Engineering Biology.</p>
+    <p>I am a Ph.D. student in the Department of Mechanical Engineering and Materials Science at Yale University, advised by Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a>. I also participate in Integrated Graduate Program in Physical and Engineering Biology.</p>
 
     <p>My research focuses on transport in crowded and deformable environments. I combine experiments and simulations to understand how particle-scale geometry and mechanics influence diffusion and fluid flow.</p>
 
@@ -80,13 +80,13 @@ about=f'''
     <div class="education-item">
       <strong>Yale University</strong>
       <span>Ph.D. student · Mechanical Engineering &amp; Materials Science</span>
-      <span>2024–present · Advisor: Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</span>
+      <span>2024–present · Advisor: Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a></span>
     </div>
 
     <div class="education-item">
       <strong>Sungkyunkwan University</strong>
       <span>M.S. · Mechanical Engineering</span>
-      <span>2022–2024 · Advisor: Prof. <a href="https://micon.skku.edu/" target="_blank" rel="noopener">Jinkee Lee</span>
+      <span>2022–2024 · Advisor: Prof. <a href="https://micon.skku.edu/" target="_blank" rel="noopener">Jinkee Lee</a>.</span>
     </div>
 
     <div class="education-item">
