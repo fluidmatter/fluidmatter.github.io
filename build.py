@@ -79,7 +79,7 @@ about=f'''
 
     <div class="education-item">
       <strong>Yale University</strong>
-      <span>Ph.D. candidate · Mechanical Engineering &amp; Materials Science</span>
+      <span>Ph.D. Candidate · Mechanical Engineering &amp; Materials Science</span>
       <span>2024–present · Advisor: Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a></span>
     </div>
 
