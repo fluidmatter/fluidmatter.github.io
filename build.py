@@ -69,7 +69,7 @@ about=f'''
   </aside>
 
   <div>
-    <p>I am a Ph.D. student in the Department of Mechanical Engineering and Materials Science at Yale University, advised by Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a>. I also participate in Integrated Graduate Program in Physical and Engineering Biology.</p>
+    <p>I am a Ph.D. candidate in the Department of Mechanical Engineering and Materials Science at Yale University, advised by Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a>. I also participate in Integrated Graduate Program in Physical and Engineering Biology.</p>
 
     <p>My research focuses on transport in crowded and deformable environments. I combine experiments and simulations to understand how particle-scale geometry and mechanics influence diffusion and fluid flow.</p>
 
@@ -79,7 +79,7 @@ about=f'''
 
     <div class="education-item">
       <strong>Yale University</strong>
-      <span>Ph.D. student · Mechanical Engineering &amp; Materials Science</span>
+      <span>Ph.D. candidate · Mechanical Engineering &amp; Materials Science</span>
       <span>2024–present · Advisor: Prof. <a href="https://luogroup.research.yale.edu/" target="_blank" rel="noopener">Yimin Luo</a></span>
     </div>
 
